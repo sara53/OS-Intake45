@@ -1,0 +1,49 @@
+-- JS History
+-- where Js Code is Written
+--  Datatype
+    -- Primitive Datatype
+    -- reference datatype
+
+/**
+ * datatype
+ * --------------------------
+ * == Primitive datatype
+ * -- string
+ * -- number
+ * -- boolean
+ * -- undefined
+ * -- null
+ * == reference datatype
+ * == Object
+ * ----------------------------------
+ * var
+ * --- Reassign with defernet datatype
+ * --- Redeclaration
+ *
+ */
+-- operators
+-----------------Falsy Values
+
+/**
+ * === 0
+ * === false
+ * === ""
+ * === null
+ * === undefined
+ * === NaN
+ */
+/**-----------------
+ * (+,-,*,/)
+ * ---------------------------
+ * == [+] ==> number + number -- add
+ * == [+] ==> string + string -- concat
+ * coercion --> js engine convert automatic from datatype to anther datatype
+ * undefined + undefined == NaN
+ * number + undefined ==> NaN
+ * number + null --->number
+ * null + null --> zerooo
+ * -------------- */
+--  ternary Operator 
+-- control flow
+-- Communication to users
+-- Regx in js Self Study
