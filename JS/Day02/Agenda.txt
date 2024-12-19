@@ -1,0 +1,14 @@
+-- How js Works
+-- Functions
+    -- built Functions
+    -- user defined Functions
+        -- function statement (declaration)
+        -- function expression
+        -- callback function
+        -- anonymous Functions
+        -- IIFE
+
+
+-- String Object 
+-- Array Object
+-----------------------------------------
