@@ -1,0 +1,7 @@
+-- sort
+-- how functions  works 
+-- how js engine deal with functions
+-- global scope -- local scope
+-- shadwing
+-- Object
+-- Math
