@@ -1,0 +1,42 @@
+/**
+ * == DOM --> document Object Model
+ * == DOM Tree
+ * -- events -- fire Event
+ * -- Add Attribute on element
+ * ------------------------------------------
+ * -- How to select Elements From Dom
+ * ------------------------------------------
+ * ==methods
+ * -----------
+ * == getElementById ==> Element | null
+ * == querySelector ==> Element | null
+ * == getElementsByClassName ==> collection
+ * == getElementsByTagName ==> collection
+ * == getElementsByName ==> collection
+ * == querySelectorAll ==> NodeList
+ * ==-------------------
+ * -- Props
+ * ----------------------
+ * == parentElement.firstChild
+ * == parentElement.lastChild
+ * == parentElement.firstElementChild
+ * == parentElement.lastElementChild
+ * == document.body // element
+ * == document.images // collection
+ * == document.links //collection
+ * == document.forms // collection
+ *
+ */
+ /**----- How to change Content From --------
+ * == innerText
+ * == innerHTML
+ * == textContent (search)
+ * === value on input Element
+ * == checked on input Element
+ *---------- How to change Style ---------- */
+ * == Style
+ * == className
+ * == classList
+ *      -- add
+ *      -- remove
+ *      -- toggle

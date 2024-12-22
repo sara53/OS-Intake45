@@ -1,0 +1,59 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+	background-color: #ddd;
+	padding: 1rem;
+	margin-bottom: 1rem;
+}
+
+img {
+	width: 100px;
+	height: 100px;
+	object-fit: cover;
+}
+p {
+	padding: 1rem;
+	background-color: #ccc;
+	margin-bottom: 1rem;
+}
+
+button {
+	display: block;
+	padding: 0.5rem 1rem;
+	border: transparent;
+	margin-top: 1rem;
+	border-radius: 0.15rem;
+	cursor: pointer;
+	font-size: 1rem;
+	transition: 0.3s;
+}
+button:hover {
+	background-color: #d76e6e;
+}
+h1,
+h2 {
+	padding: 0.5rem;
+}
+
+input[type="text"] {
+	border: transparent;
+	padding: 0.5rem 1rem;
+	border-radius: 0.25rem;
+	outline: 0;
+	margin-bottom: 1rem;
+}
+
+.testData {
+	letter-spacing: 2px;
+	border-radius: 1rem;
+}
+
+.jsClass {
+	background-color: #c97373;
+	font-size: 1.25rem;
+}
