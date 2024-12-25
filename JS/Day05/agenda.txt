@@ -1,0 +1,9 @@
+-- deal with attributes
+-- Create Elements From Dom
+-- BOM
+ -- window //
+ -- screen // self study -- date study
+ -- navigation
+ -- location
+ -- history
+-- Events
