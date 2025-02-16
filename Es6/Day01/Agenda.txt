@@ -1,0 +1,11 @@
+-- var - let - const
+-- default values
+-- spread operator
+-- destructuring
+-- rest params
+-- arrow function -- that pattern -- 
+-- this 
+-- Array API
+-----------------------------------
+-- Modules
+-----------------------------------
