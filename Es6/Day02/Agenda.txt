@@ -1,0 +1,14 @@
+Object New Features
+------------------------------
+-- Object.keys
+-- Object.values
+-- Object.entries
+-- Object.assign
+-------------------------------
+-- Deal With asynchrouns Code How to execute in mempry
+    -- web api -- event loop - message queue
+-- callback hell
+-- promises
+-- fetch 
+    -- then catch
+    -- async await
