@@ -13,3 +13,11 @@
 // export --
 // export naming
 // export default
+
+// proxy
+let person = {
+	fname: "Ali",
+	age: 20,
+};
+
+person.age = -12; // not valid

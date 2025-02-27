@@ -1,0 +1,5 @@
+1- install node js
+2- npm i -g typescript
+3- tsc -v
+4- tsc filename.ts -w
+5- npm i -g @angular/cli
