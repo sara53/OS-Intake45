@@ -1,0 +1,31 @@
+<!-- <div class="alert alert-light mt-5 p-5">
+  <h1 class="text-center mb-3">Two Way Binding</h1>
+  <input
+    (input)="getInputValue($event)"
+    type="text"
+    class="form-control mt-4"
+    placeholder="Enter Your Data"
+  />
+  <p class="mt-3 fs-2 lead">{{ inputValue }}</p>
+</div> -->
+<div class="alert alert-light mt-5 p-5">
+  <h1 class="text-center mb-3">Two Way Binding</h1>
+  <input
+    type="text"
+    name="x"
+    class="form-control mt-4"
+    placeholder="Enter Student Name"
+    [(ngModel)]="studentName"
+  />
+  <input
+    type="text"
+    name="age"
+    class="form-control mt-4"
+    placeholder="Enter Student age"
+    [(ngModel)]="studentAge"
+  />
+  <button (click)="login()" class="btn btn-dark mt-3 d-block w-100">
+    Login
+  </button>
+  <p class="mt-3 fs-2 lead">{{ studentName }}</p>
+</div>
