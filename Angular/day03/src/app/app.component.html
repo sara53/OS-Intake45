@@ -1,0 +1,8 @@
+<!-- <app-test-directives /> -->
+<!-- <app-attribute-directives /> -->
+
+<!-- <app-todos /> -->
+<h1>{{ trackName }} : {{ mySupName }}</h1>
+<app-content [dataFromParent]="trackName" />
+
+<app-login (myEvent)="getData($event)" />

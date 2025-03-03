@@ -1,0 +1,114 @@
+<!-- <div class="mt-5 container p-5">
+  <h1>Directives</h1>
+  <div class="row mt-5">
+    @for (track of itiTracks; track track.id;let i = $index) {
+    <app-our-card class="g-3 col-md-6" /> }@empty {
+    <div class="alert alert-dark">No Tracks Availiable</div>
+    }
+  </div>
+</div> -->
+<!-- <div class="mt-5 container p-5">
+  <h1>Directives</h1>
+  <div class="row mt-5">
+    <div *ngFor="let x of itiTracks; let i = even" class="g-3 col-md-6">
+      <div class="border p-3 rounded">
+        <h2>{{ i }} : {{ x.trackName }}</h2>
+        <h4>Odd Element</h4>
+        <h6>Even Element :</h6>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur
+          inventore et sint ipsum. Maxime quo commodi, voluptas odit adipisci,
+          qui veniam praesentium accusantium consequatur, nulla architecto et
+          delectus voluptates impedit!
+        </p>
+        <button class="btn btn-success mt-4">Show More !</button>
+      </div>
+    </div>
+  </div>
+</div> -->
+
+<!-- Empty at For -->
+<!-- @If (*ngIf) -->
+<!-- <div class="mt-5 container p-5">
+  <h1>Directives</h1>
+  <div class="row mt-5">
+    <button class="btn btn-dark" (click)="toggle()">Toggle</button>
+
+    @if(color == 'red'){
+    <div class="mt-5 p-4 border rounded">
+      <h3>Color is Red</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur
+        consequatur quisquam a in natus reiciendis voluptatum, beatae repellat
+        tempora dolore vero odit? Neque possimus nobis fugit corrupti
+        perferendis voluptatibus hic?
+      </p>
+    </div>
+    }@else if (color == 'green') {
+    <div class="mt-5 p-4 border rounded">
+      <h3>Color is Green</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur
+        consequatur quisquam a in natus reiciendis voluptatum, beatae repellat
+        tempora dolore vero odit? Neque possimus nobis fugit corrupti
+        perferendis voluptatibus hic?
+      </p>
+    </div>
+    }@else{
+    <div class="alert alert-danger mt-5">No Color Choosen</div>
+    }
+  </div>
+</div> -->
+<!-- @switch -->
+
+<!-- <div class="mt-5 container p-5">
+  <h1>Directives</h1>
+  <div class="row mt-5">
+    <button class="btn btn-dark" (click)="toggle()">Toggle</button>
+
+    @switch (color) { @case ('red') {
+    <div class="mt-5 p-4 border rounded bg-danger">
+      <h3>Color is Red</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur
+        consequatur quisquam a in natus reiciendis voluptatum, beatae repellat
+        tempora dolore vero odit? Neque possimus nobis fugit corrupti
+        perferendis voluptatibus hic?
+      </p>
+    </div>
+    } @case ('green') {
+    <div class="mt-5 p-4 border rounded bg-success">
+      <h3>Color is Green</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur
+        consequatur quisquam a in natus reiciendis voluptatum, beatae repellat
+        tempora dolore vero odit? Neque possimus nobis fugit corrupti
+        perferendis voluptatibus hic?
+      </p>
+    </div>
+    } @case ('blue') {
+    <div class="mt-5 p-4 border rounded bg-primary">
+      <h3>Color is blue</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur
+        consequatur quisquam a in natus reiciendis voluptatum, beatae repellat
+        tempora dolore vero odit? Neque possimus nobis fugit corrupti
+        perferendis voluptatibus hic?
+      </p>
+    </div>
+    } @default {
+    <div class="alert alert-danger mt-5">No Color Choosen</div>
+
+    } }
+  </div>
+</div> -->
+<!-- Save Navigation Property -->
+<!-- <div class="mt-5 container p-5">
+  <h1>Directives</h1>
+  <div class="row mt-5">
+    <div class="border p-4">
+      <h3>Student Name : {{ student?.name }}</h3>
+      <p>Student Age : {{ student?.age }}</p>
+    </div>
+  </div>
+</div> -->
