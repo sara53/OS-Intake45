@@ -16,3 +16,13 @@
     - Pass Data from parent to child
     - Pass Data from Child to parent
     - pass data from child to child (X)
+
+# Angular Life Cycle
+
+# Routing --
+
+# Services
+
+# Depency Injection Pattern
+
+# (Obserbavle Pattern)

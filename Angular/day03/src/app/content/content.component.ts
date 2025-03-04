@@ -7,5 +7,6 @@ import { Component, Input } from '@angular/core';
   styleUrl: './content.component.css',
 })
 export class ContentComponent {
-  @Input() dataFromParent: string = '';
+  @Input({ required: true }) dataFromParent: string = '';
+  @Input({ required: true }) supName: string = '';
 }

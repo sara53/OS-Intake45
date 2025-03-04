@@ -2,7 +2,33 @@
 <!-- <app-attribute-directives /> -->
 
 <!-- <app-todos /> -->
-<h1>{{ trackName }} : {{ mySupName }}</h1>
-<app-content [dataFromParent]="trackName" />
+<!-- <h1>{{ trackName }} : {{ mySupName }}</h1> -->
 
-<app-login (myEvent)="getData($event)" />
+<!-- <app-login (myEvent)="getData($event)" /> -->
+<!-- 
+    <app-content [dataFromParent]="'Open Source'" [supName]="'Ahmed'" /> -->
+
+<!-- <app-content [dataFromParent]="trackName" [supName]="mySupName" /> -->
+<!-- 
+<div class="container">
+  <app-product [myProduct]="product" [supName]="'Ahmed'" />
+
+  <button class="mt-5 btn btn-success" (click)="getOffer()">Get Offer</button>
+</div> -->
+
+<app-gallary />
+<app-gallary>
+  <p class="bg-light mt-3 p-4 text-dark rounded">
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis aliquid
+    aspernatur distinctio sit eligendi. Consequuntur ex, minus est harum,
+    assumenda aliquam molestiae ipsa quam temporibus, corrupti autem adipisci
+    dolor magnam?
+  </p>
+  <button class="btn btn-dark">Show More</button>
+</app-gallary>
+<app-gallary>
+  <h2>More Items</h2>
+  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+  <h2>More Items</h2>
+  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+</app-gallary>

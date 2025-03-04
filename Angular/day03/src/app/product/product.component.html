@@ -1,0 +1,16 @@
+<div class="p-5 mt-5 container border rounded">
+  <h1>Product Details</h1>
+  <p class="mt-4 fs-3 lead">Product Name : {{ myProduct.name | uppercase }}</p>
+  @if (show) {
+  <p class="mt-4 fs-3 lead">
+    Previous Price :
+    <strong class="text-decoration-line-through text-danger">{{
+      previousPrice | currency
+    }}</strong>
+  </p>
+  }
+  <p class="mt-4 fs-3 lead">Product Price : {{ myProduct.price | currency }}</p>
+</div>
+
+<!-- <p class="mt-4 fs-3 lead">Product Name : {{ "test angular" | titlecase }}</p>
+<p class="mt-4 fs-3 lead">Date: {{ date | date : "YYYY-MM-dd" }}</p> -->
