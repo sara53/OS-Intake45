@@ -1,0 +1,26 @@
+<h4 class="mb-4">Login</h4>
+<form>
+  <div class="mb-3">
+    <label for="productPrice" class="form-label">Email</label>
+    <input
+      type="text"
+      class="form-control"
+      id="productPrice"
+      placeholder="Enter Your Email"
+    />
+  </div>
+  <div class="mb-3">
+    <label for="productQuantity" class="form-label">Password</label>
+    <input
+      type="password"
+      class="form-control"
+      id="productQuantity"
+      placeholder="Enter password"
+    />
+  </div>
+
+  <p class="lead fs-5">
+    Don't Have an account ? <a [routerLink]="['/account/register']">Sign Up</a>
+  </p>
+  <button type="submit" class="btn btn-dark d-block w-100 mt-4">Login</button>
+</form>

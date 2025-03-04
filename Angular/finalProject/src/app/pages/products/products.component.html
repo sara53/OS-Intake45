@@ -1,0 +1,43 @@
+<div class="mt-5 container p-3">
+  <h2 class="text-center text-muted mb-3">Our Products</h2>
+  <div class="d-flex justify-content-between mt-5">
+    <button
+      class="btn btn-outline-primary"
+      [routerLink]="['/products', 0, 'edit']"
+    >
+      Add New Product
+    </button>
+    <input type="text" class="form-control w-25" placeholder="Search ...." />
+  </div>
+  <table class="table mt-5">
+    <thead>
+      <tr>
+        <th scope="col">Id</th>
+        <th scope="col">Product Name</th>
+        <th scope="col">Product Price</th>
+        <th scope="col">Product Qunatity</th>
+        <th scope="col">Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      @for (product of products; track product.id) {
+      <tr>
+        <th scope="row">{{ product.id }}</th>
+        <td>{{ product.name }}</td>
+        <td>{{ product.price | currency }}</td>
+        <td>10</td>
+        <td>
+          <a [routerLink]="['/products', product.id, 'edit']">
+            <i class="fs-3 mx-1 text-info bi bi-pencil-square"></i>
+          </a>
+          <a [routerLink]="['/products', product.id]">
+            <i class="fs-3 mx-1 text-warning bi bi-eye-fill"></i>
+          </a>
+
+          <i class="fs-3 mx-1 text-danger bi bi-trash-fill"></i>
+        </td>
+      </tr>
+      }
+    </tbody>
+  </table>
+</div>
